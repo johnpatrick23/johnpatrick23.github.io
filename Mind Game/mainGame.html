@@ -1,0 +1,217 @@
+<html>
+
+<head>
+    <script language="javascript" src="js/function.js"></script>
+    <link href="css/Site.css" rel="stylesheet" type="text/css">
+
+    <title>
+        MEMORY GAME: MATCHFINDING
+    </title>
+</head>
+
+<body style="background-image: radial-gradient(#86828c, #656565);">
+
+    <!--//
+            Umpisa ng main game table.
+        //-->
+    <table align="center" border="0">
+        <tr>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(0)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(1)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(2)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(3)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(4)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(5)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(6)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(7)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(8)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(9)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(10)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(11)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(12)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(13)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(14)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(15)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(16)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(17)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(18)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(19)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(20)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(21)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(22)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(23)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(24)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(25)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(26)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(27)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(28)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(29)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(30)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(31)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(32)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(33)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(34)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(35)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(36)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(37)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(38)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(39)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(40)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(41)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(42)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(43)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(44)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(45)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(46)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+            <td>
+                <img src="img/imgback1.png" type="button" value="" onclick="choose(47)" style="background-image: url('img/transparent.png'); width: 100px; height: 150px; background-size: 100px 150px; background-position: center;" />
+            </td>
+
+        </tr>
+    </table>
+    <!--//
+            Ending ng main game table.
+        //-->
+
+    <table align="center" border="0">
+        <br /><br />
+        <tr>
+            <td colspan="12" bgcolor="white" style="padding:.35%">
+
+            </td>
+            <tr>
+                <tr>
+                    <td width="20%">
+                        <button type="button" onclick="reveal_instruction()" class="button_instruction">
+									<a href="mainGame.html">RETRY</a>
+								</button>
+                    </td>
+                    <td width="10%">
+                    </td>
+                    <td width="20%">
+                        <button type="button" onclick="reveal_menu()" class="button_instruction">
+									<a href="index.html">MAIN MENU</a>
+								</button>
+
+                    </td>
+                    <td width="50%">
+                        <center>
+                            <marquee scroll-amount:10; width="50%">
+                                <p class="setnorm_let2"> MATCH THE CARDS ABOVE</p>
+                            </marquee>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="12" bgcolor="white" style="padding:.35%">
+
+                    </td>
+                    <tr>
+                    </tr>
+                </tr>
+            </tr>
+        </tr>
+    </table>
+</body>
+
+</html>

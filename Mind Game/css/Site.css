@@ -1,0 +1,120 @@
+p.setbig_let {
+    font-family: century gothic;
+    font-size: 490%;
+    color: #161616;
+    font-weight: bold;
+    text-align: center;
+}
+
+.set_body {
+    background-image: radial-gradient(#86828c, #656565);
+    margin: 3% 7%;
+}
+
+.set_body2 {
+    background-image: radial-gradient(#86828c, #aaaaaa);
+    margin: 1% 7%;
+}
+
+p.setnorm_let {
+    font-family: courier new;
+    font-size: 190%;
+    color: #161616;
+    font-weight: bold;
+    text-align: center;
+}
+
+p.setnorm_let2 {
+    font-family: century gothic;
+    font-size: 190%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+p.selector {
+    font-family: courier new;
+    font-size: 0;
+    color: #4b443e;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 10pt;
+}
+
+hr.hr_set {
+    border: 300%;
+    color: white;
+    border-style: solid;
+}
+
+div.setbut {
+    width: 30%;
+    height: 200%;
+    font-family: century gothic;
+    font-size: 220%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 10pt;
+    background: #161616;
+    transition: height 0.3s;
+}
+
+div:hover.setbut {
+    height: 400%;
+    font-size: 190%;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+button.button_instruction {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    font-family: century gothic;
+    font-size: 130%;
+    background: #161616;
+    color: white;
+    transition: width .3s;
+}
+
+button:hover.button_instruction {
+    width: 100%;
+    font-size: 130%;
+    text-decoration: underline;
+}
+
+div.set_settings {
+    background: #656565;
+    width: 85.5%;
+    height: 0;
+    position: absolute;
+}
+
+button.imagesetter {
+    background-color: transparent;
+    width: 0;
+    height: 0;
+    border-style: hidden;
+    position: absolute;
+}
+
+div.setdiv {
+    border-style: solid;
+    border-color: white;
+}
