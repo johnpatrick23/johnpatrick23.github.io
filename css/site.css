@@ -1,0 +1,169 @@
+#me {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    max-height: 1080px;
+    background: url(../img/me.jpg);
+    background-size: cover;
+    padding: 15px;
+    overflow: hidden;
+}
+
+#me-content {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+}
+
+#me-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(71, 144, 194, 0.5);
+}
+
+#me-content h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 4em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 0.9em;
+}
+
+#me-content h1,
+h2 {
+    margin: 0;
+}
+
+#me-content h2 {
+    color: #3498db;
+    filter: brightness(150%);
+    font-weight: 500;
+    font-size: 2.25em;
+    margin-bottom: 15px;
+}
+
+.bg-color-alt {
+    background-color: #f2f2f5;
+}
+
+.scroll-container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.copyright {
+    padding-top: 20px;
+}
+
+.copyright p {
+    margin: 0;
+    color: #74808a;
+}
+
+.social {
+    text-align: right;
+}
+
+.social ul {
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+    font-size: 1.25em;
+    list-style: none;
+}
+
+.social a {
+    display: block;
+    color: #74808a;
+    padding: 10px;
+}
+
+a:hover {
+    color: #3498db;
+}
+
+.text-color-secondary {
+    color: #74808a;
+}
+
+.skills {
+    padding: 50px 15px;
+    text-align: center;
+}
+
+.skills h2 {
+    color: #374054;
+    margin-bottom: 50px;
+}
+
+.skills ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+.skills li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    background: #f2f2f5;
+    filter: brightness(90%);
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+}
+
+.project {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.project-image {
+    float: left;
+}
+
+.project-info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 300px;
+    padding: 15px;
+}
+
+.project-info h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 0 0 15px 0;
+}
+
+.project-info p {
+    color: #74808a;
+    margin: 0 0 15px 0;
+    font-size: 0.9em;
+}
+
+.no-image .project-info {
+    position: relative;
+    margin: 0;
+    padding: 30px 15px;
+    transform: none;
+}
