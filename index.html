@@ -32,8 +32,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#Education">Education</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Projects">Projects</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Projects</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#ASLGuide">ASL Guide</a>
+                        <a class="dropdown-item" href="#ProgrammersCalculator">Programmers Calculator</a>
+                        <a class="dropdown-item" href="#ColorPicker">Color Picker</a>
+                        <a class="dropdown-item" href="#Flames">Flames</a>
+                        <a class="dropdown-item" href="#MineSweeper">Mine Sweeper</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#Skills">Skills</a>
@@ -48,7 +55,7 @@
     <div id="me">
         <div id="me-content">
             <h1>John Patrick Papares</h1>
-            <h2>Junior Software Engineer</h2>
+            <h2>Junior Software Developer</h2>
             <a href="docs/Resume.pdf" class="btn btn-primary" download="John Patrick Papares" target="_blank">Download Resume</a>
         </div>
 
@@ -62,11 +69,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="font-weight-bold ">About Me</h2>
+                    <h1 class="header font-weight-bold ">About Me</h1>
                 </div>
                 <div class="col-md-8">
                     <p class="text-justify">
-                        Hi! I am John Patrick Sapurco Papares also known as Jaypee; Bachelor of Science in Information Technology graduate; from Camarines Norte State Collge.
+                        Hi! I am John Patrick Sapurco Papares also known as Jaypee; Bachelor of Science in Information Technology graduate; from Camarines Norte State Collge. Developing mobile application for android is one of my favorite thing to do. I am currently studying
+                        Azure automation tool for Continuous Integration and Continuous Deployment (CICD).
                     </p>
                 </div>
             </div>
@@ -79,7 +87,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="font-weight-bold">Experience</h2>
+                    <h1 class="header font-weight-bold">Experience</h1>
                 </div>
                 <div class="col-md-8">
                     <div class="card">
@@ -114,7 +122,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="font-weight-bold">Education</h2>
+                    <h1 class="header font-weight-bold">Education</h1>
                 </div>
                 <div class="col-md-8">
                     <div class="card">
@@ -135,6 +143,20 @@
                             </ul>
                         </div>
                     </div>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Vinzons Pilot High School</h3>
+                            <p class="text-color-secondary">June 2010 – March 2015</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Talisay Elementary School</h3>
+                            <p class="text-color-secondary">June 2004 – March 2010</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -146,32 +168,116 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="font-weight-bold">Projects</h2>
+                    <h1 class="header font-weight-bold">Projects</h1>
                 </div>
                 <div class="col-md-8">
-                    <div class="project shadow-large">
+                    <h3 class="header">Android Applications</h3>
+                    <hr>
+                    <div id="ASLGuide" class="project shadow-large">
                         <div class="project-image">
                             <img src="img/asl guide.png" width="300" />
                         </div>
-                        <!-- End .project-image -->
                         <div class="project-info">
                             <h3 class="font-weight-bold" style="text-align: center">Assistive E-Learning Android Application for Deaf with Speech Recognition Support
                             </h3>
-                            <h5 class="text-color-secondary" style="text-align: center"> Thesis</h5>
+                            <h5 class="text-color-secondary" style="text-align: center">Thesis</h5>
                             <p style="text-align: justify">
                                 ASL Guide is a mobile application capable of converting speech into sign language.
                                 <br/> It is also an Instructional Material for Teaching American Sign Language for hearing and non-hearing community.
                                 <br> Its dictionary has 4000+ uploaded words.
                             </p>
-                            <a href="docs/ASL Guide v1.0.apk" class="btn btn-outline-primary" style="width: 100%" download="ASL Guide v1.0.apk" target="_blank">ASL Guide.apk</a>
+                            <a href="docs/ASL Guide v1.0.apk" class="btn btn-outline-primary" style="width: 100%" download="ASL Guide v1.0.apk" target="_blank">Download</a>
                             <br>
                             <br>
                             <span class="text-color-secondary"><b>Request Activation Key via</b> <i>johnpatrickpapares@gmail.com</i></span>
 
                         </div>
-                        <!-- End .project-info -->
                     </div>
-                    <!-- End .project -->
+
+                    <div id="ProgrammersCalculator" class="project shadow-large">
+                        <div class="project-image">
+                            <img src="img/ProgrammersCalculator.PNG" width="300" />
+                        </div>
+                        <div class="project-info">
+                            <h3 class="font-weight-bold" style="text-align: center">Programmers Calculator
+                            </h3>
+                            <h5 class="text-color-secondary" style="text-align: center">2nd year College Project</h5>
+                            <p style="text-align: justify">
+                                Programmers Calculator it is a calculator for Hexadecimal, Octa decimal, Binary and Decimal.
+                            </p>
+                            <a href="docs/Programmers Calculator.apk" class="btn btn-outline-primary" style="width: 100%" download="Programmers Calculator.apk" target="_blank">Download</a>
+
+                        </div>
+                    </div>
+
+                    <div id="ColorPicker" class="project shadow-large">
+                        <div class="project-image">
+                            <img src="img/ColorPicker.png" width="300" />
+                        </div>
+                        <div class="project-info">
+                            <h3 class="font-weight-bold" style="text-align: center">Color Picker
+                            </h3>
+                            <p style="text-align: justify">
+                                Color Picker is used for viewing a hexadecimal value of any color.
+                            </p>
+                            <a href="docs/Color Picker.apk" class="btn btn-outline-primary" style="width: 100%" download="Color Picker.apk" target="_blank">Download</a>
+
+                        </div>
+                    </div>
+
+                    <div id="Flames" class="project shadow-large">
+                        <div class="project-image">
+                            <img src="img/Flames.png" width="300" />
+                        </div>
+                        <div class="project-info">
+                            <h3 class="font-weight-bold" style="text-align: center">Flames
+                            </h3>
+                            <p style="text-align: justify">
+                                A childhood game to calculate the status between you and your crush.
+                            </p>
+                            <a href="docs/Flames.apk" class="btn btn-outline-primary" style="width: 100%" download="Flames.apk" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <br>
+                    <h3 class="header">Windows Applications</h3>
+                    <hr>
+                    <div id="MineSweeper" class="project shadow-large">
+                        <div class="project-image">
+                            <img src="img/MineSweeper.png" width="300" />
+                        </div>
+                        <div class="project-info">
+                            <h3 class="font-weight-bold" style="text-align: center">Mine Sweeper
+                            </h3>
+                            <h5 class="text-color-secondary" style="text-align: center">4th year College Activity</h5>
+                            <p style="text-align: justify">
+                                A 2-Dimensional game console application with a basic function of a mine sweeper.
+                            </p>
+                            <a href="docs/2DMineSweeper.exe" class="btn btn-outline-primary" style="width: 100%" download="2DMineSweeper.apk" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <br>
+                    <h3 class="header">Web Applications</h3>
+                    <hr>
+                    <div id="MineSweeper" class="project shadow-large">
+                        <div class="project-image">
+                            <img src="img/brains.png" width="300" />
+                        </div>
+                        <div class="project-info">
+                            <h3 class="font-weight-bold" style="text-align: center">Memmory Game
+                            </h3>
+                            <h5 class="text-color-secondary" style="text-align: center">3rd year College Project</h5>
+                            <p style="text-align: justify">
+                                Web game application developed by our group for completion of 1st semester.
+                                <ul class="text-color-secondary">
+                                    <li>Cyrine Dipasupil</li>
+                                    <li>Cedric Anthony Moraly</li>
+                                    <li>Maria Princess Maricel Nota</li>
+                                    <li>John Patrick Papares</li>
+                                </ul>
+                            </p>
+                            <a href="Mind Game/index.html" class="btn btn-outline-primary" style="width: 100%" target="_blank">View</a>
+                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -184,49 +290,52 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading font-weight-bold">Skills</h2>
+                    <h1 class="header font-weight-bold">Skills</h1>
                 </div>
-                <div class="col-md-8 skills">
-                    <ul>
-                        <li>Java</li>
-                        <li>C#</li>
-                        <li>C/C++</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>MySQL</li>
-                        <li>PowerSell</li>
-                        <li>Azure</li>
-                    </ul>
+                <div class="col-md-8">
+                    <div class="card skills">
+                        <div class="card-body">
+                            <b>Programming:</b>
+                            <ul>
+                                <li>Java</li>
+                                <li>C#</li>
+                                <li>C/C++</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>MySQL</li>
+                                <li>PowerSell</li>
+                            </ul>
+                            <br>
+                            <b>Tools and Software:</b>
+                            <ul>
+                                <li>Photoshop</li>
+                                <li>Photoshop</li>
+                                <li>Audition</li>
+                                <li>MS Office</li>
+                                <li>Vegas Pro</li>
+                                <li>Azure</li>
+                                <li>Azure</li>
+                            </ul>
+                            <br>
+                            <b>Operating System:</b>
+                            <ul>
+                                <li>Windows</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Skills End-->
 
-    <!-- Contact Start -->
-    <!-- <div id="Contact" class="container-fluid bg-color-alt scroll-container">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading font-weight-bold">Contact</h2>
-                </div>
-                <div class="col-md-8">
-                    <p class="text-justify">
-                        Hi! I am John Patrick Sapurco Papares also known as Jaypee; Bachelor of Science in Information Technology graduate; from Camarines Norte State Collge.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Contact End -->
-
-    <footer class="scroll-container bg-color-alt">
+    <footer class="scroll-container bg-color-alt bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2019 JOHN PATRICK
+                        Copyright &copy; 2019 JOHN PATRICK S. PAPARES
                     </p>
                 </div>
                 <div class="col-sm-5 social">
