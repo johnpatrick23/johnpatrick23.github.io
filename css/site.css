@@ -174,7 +174,7 @@ a:hover {
 
 /* Medium Devices */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
     #me {
         height: auto;
         min-height: auto;
@@ -193,6 +193,16 @@ a:hover {
     }
     #me-content h2 {
         font-size: 1.75em;
+    }
+    .project-image {
+        display: none;
+    }
+    .project-info {
+        position: relative;
+        margin: 0;
+        padding: 30px 15px;
+        top: auto;
+        transform: none;
     }
 }
 
