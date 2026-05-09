@@ -6,416 +6,320 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/site.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9555497949371054" crossorigin="anonymous"></script>
     <title>John Patrick Papares</title>
 </head>
-<!-- The scrollable area -->
 
-<body bgcolor="#ffffff" data-spy="scroll" data-target=".navbar" data-offset="50">
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <a class="navbar-brand" href="#me">John Patrick Papares</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#About">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Experience">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Education">Education</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link  dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Projects</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#ASLGuide">ASL Guide</a>
-                        <a class="dropdown-item" href="#ProgrammersCalculator">Programmers Calculator</a>
-                        <a class="dropdown-item" href="#ColorPicker">Color Picker</a>
-                        <a class="dropdown-item" href="#Flames">Flames</a>
-                        <hr>
-                        <a class="dropdown-item" href="#MineSweeper">Mine Sweeper</a>
-                        <a class="dropdown-item" href="#MineSweeperJava">Mine Sweeper Java</a>
-                        <hr>
-                        <a class="dropdown-item" href="#MemoryGame">Memory Game</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Skills">Skills</a>
-                </li>
-            </ul>
+<body>
+    <!-- Instagram-like Header -->
+    <header class="ig-header">
+        <div class="ig-header-content">
+            <div class="ig-logo">
+                <i class="fas fa-camera"></i>
+                <span>Portfolio</span>
+            </div>
+            <nav class="ig-nav">
+                <a href="#About" class="nav-link">About</a>
+                <a href="#Experience" class="nav-link">Experience</a>
+                <a href="#Education" class="nav-link">Education</a>
+                <a href="#Projects" class="nav-link">Projects</a>
+                <a href="#Skills" class="nav-link">Skills</a>
+            </nav>
+            <div class="ig-nav-icons">
+                <a href="#About" class="icon-link"><i class="fas fa-bars"></i></a>
+            </div>
         </div>
-    </nav>
-    <!-- John Patrick Papares Start -->
-    <div id="me">
-        <div id="me-content">
-            <h1>John Patrick Papares</h1>
-            <h2>Site Reliability Engineer</h2>
-            <a href="docs/Resume.pdf" class="btn btn-primary" download="John Patrick Papares" target="_blank">Download Resume</a>
-        </div>
-
-        <div id="me-overlay"></div>
-
-    </div>
-    <!-- John Patrick Papares End -->
-
-    <!-- About Start -->
-    <div id="About" class="scroll-container">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h1 class="header font-weight-bold ">About Me</h1>
+    </header>
+    <!-- Profile Section Instagram Style -->
+    <section id="me" class="ig-profile-section">
+        <div class="ig-profile-container">
+            <div class="ig-profile-header">
+                <div class="ig-profile-pic">
+                    <img src="img/me.png" alt="Profile Picture" class="ig-avatar">
                 </div>
-                <div class="col-md-8">
-                    <p class="text-justify">
-                        Hi! I am John Patrick Sapurco Papares also known as Jaypee; Bachelor of Science in Information Technology graduate; from Camarines Norte State College. Developing mobile application for android is one of my favorite thing to do. I am currently studying
-                        Azure automation tool for Continuous Integration and Continuous Deployment (CICD).
-                    </p>
+                <div class="ig-profile-info">
+                    <h1 class="ig-username">John Patrick Papares</h1>
+                    <p class="ig-bio">Site Reliability Engineer | DevOps | Cloud Engineer</p>
+                    <p class="ig-bio-desc">💻 Building reliable systems | 🚀 DevOps enthusiast | 📱 Mobile Dev</p>
+                    <a href="docs/Resume.pdf" class="ig-btn ig-btn-primary" download="John Patrick Papares" target="_blank">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- About Start -->
+    <section id="About" class="ig-section">
+        <div class="ig-section-container">
+            <h2 class="ig-section-title">About Me</h2>
+            <div class="ig-about-card">
+                <p class="ig-text">
+                    👋 Hi! I'm John Patrick Sapurco Papares, also known as Jaypee. I'm a Bachelor of Science in Information Technology graduate from Camarines Norte State College. 
+                </p>
+                <p class="ig-text">
+                    🚀 I specialize in developing mobile applications for Android and have extensive experience with cloud platforms and DevOps practices. Currently, I'm deepening my expertise in Azure automation tools for CI/CD pipelines.
+                </p>
+                <p class="ig-text">
+                    💡 I'm passionate about building reliable, scalable systems and love collaborating with teams to solve complex technical challenges.
+                </p>
+            </div>
+        </div>
+    </section>
     <!-- About End -->
 
     <!-- Experience Start -->
-    <div id="Experience" class="container-fluid bg-color-alt scroll-container">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h1 class="header font-weight-bold">Experience</h1>
-                </div>
-                <div class="col-md-8">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3>Cloud Swyft Global Solutions Inc.</h3>
-                            <h4 class="text-color-secondary">DevOps Intern</h4>
-                            <p class="text-color-secondary">June 2018 – September 2018</p>
-                            <ul class="text-color-secondary">
-                                <li>
-                                    Developed C#.NET Windows Application for Oxa LaaS Deployment Tool
-                                </li>
-                                <li>
-                                    Handled Azure Web App Deployment
-                                </li>
-                                <li>
-                                    Provided DevOps support for web automation deployment.
-                                </li>
-                                <li>
-                                    Studied Azure Cloud Service Platform.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+    <section id="Experience" class="ig-section ig-section-alt">
+        <div class="ig-section-container">
+            <h2 class="ig-section-title">Experience</h2>
+            <div class="ig-card">
+                <h3 class="ig-card-title">Cloud Swyft Global Solutions Inc.</h3>
+                <p class="ig-card-role">DevOps Intern</p>
+                <p class="ig-card-date">June 2018 – September 2018</p>
+                <ul class="ig-card-list">
+                    <li>Developed C#.NET Windows Application for Oxa LaaS Deployment Tool</li>
+                    <li>Handled Azure Web App Deployment</li>
+                    <li>Provided DevOps support for web automation deployment</li>
+                    <li>Studied Azure Cloud Service Platform</li>
+                </ul>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Experience End -->
 
     <!-- Education Start -->
-    <div id="Education" class="container-fluid scroll-container">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h1 class="header font-weight-bold">Education</h1>
-                </div>
-                <div class="col-md-8">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3>Camarines Norte State College - Main Campus</h3>
-                            <h4 class="text-color-secondary">Bachelor of Science in Information Technology</h4>
-                            <p class="text-color-secondary">June 2015 – April 2019</p>
-                            <ul class="text-color-secondary">
-                                <b>Roles:</b>
-                                <li>
-                                    Breakthrough: The Official Student Publication of Camarines Norte State College <br/>Chief Layout Artist (2017 - 2019)
-                                </li>
-                                <br>
-                                <b>Awards:</b>
-                                <li>
-                                    Best Thesis (April 2019)
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="card">
-                        <div class="card-body">
-                            <h3>Vinzons Pilot High School</h3>
-                            <p class="text-color-secondary">June 2010 – March 2015</p>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="card">
-                        <div class="card-body">
-                            <h3>Talisay Elementary School</h3>
-                            <p class="text-color-secondary">June 2004 – March 2010</p>
-                        </div>
-                    </div>
-                </div>
+    <section id="Education" class="ig-section">
+        <div class="ig-section-container">
+            <h2 class="ig-section-title">Education</h2>
+            <div class="ig-card">
+                <h3 class="ig-card-title">Camarines Norte State College - Main Campus</h3>
+                <p class="ig-card-role">Bachelor of Science in Information Technology</p>
+                <p class="ig-card-date">June 2015 – April 2019</p>
+                <p class="ig-card-subtitle">🎯 Roles:</p>
+                <ul class="ig-card-list">
+                    <li>Breakthrough: The Official Student Publication - Chief Layout Artist (2017 - 2019)</li>
+                </ul>
+                <p class="ig-card-subtitle">🏆 Awards:</p>
+                <ul class="ig-card-list">
+                    <li>Best Thesis (April 2019)</li>
+                </ul>
+            </div>
+            <div class="ig-card">
+                <h3 class="ig-card-title">Vinzons Pilot High School</h3>
+                <p class="ig-card-date">June 2010 – March 2015</p>
+            </div>
+            <div class="ig-card">
+                <h3 class="ig-card-title">Talisay Elementary School</h3>
+                <p class="ig-card-date">June 2004 – March 2010</p>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Education End -->
 
     <!-- Projects Start -->
-    <div id="Projects" class="container-fluid bg-color-alt scroll-container">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h1 class="header font-weight-bold">Projects</h1>
+    <section id="Projects" class="ig-section ig-section-alt">
+        <div class="ig-section-container">
+            <h2 class="ig-section-title">Projects</h2>
+            
+            <h3 class="ig-subsection-title">📱 Android Applications</h3>
+            <div class="ig-grid">
+                <div id="ASLGuide" class="ig-project-card">
+                    <div class="ig-project-image">
+                        <img src="img/asl guide.png" alt="ASL Guide">
+                        <div class="ig-project-overlay">
+                            <a href="docs/ASL Guide v1.0.apk" class="ig-btn ig-btn-download" download="ASL Guide v1.0.apk" target="_blank">
+                                <i class="fas fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ig-project-info">
+                        <h4>Assistive E-Learning for Deaf</h4>
+                        <p>Speech Recognition Support</p>
+                        <p class="ig-tech">Java, XML, JSON, SQLite</p>
+                        <small>Thesis Project | 4000+ words</small>
+                    </div>
                 </div>
-                <div class="col-md-8">
-                    <h3 class="header">Android Applications</h3>
-                    <hr>
-                    <div id="ASLGuide" class="project shadow-large">
-                        <div class="project-image">
-                            <img src="img/asl guide.png" width="300" />
-                        </div>
-                        <div class="project-info">
-                            <h3 class="font-weight-bold" style="text-align: center">Assistive E-Learning Android Application for Deaf with Speech Recognition Support
-                            </h3>
-                            <h5 class="text-color-secondary" style="text-align: center">Thesis</h5>
-                            <p style="text-align: justify">
-                                ASL Guide is a mobile application capable of converting speech into sign language.
-                                <br/> It is also an Instructional Material for Teaching American Sign Language for hearing and non-hearing community.
-                                <br> Its dictionary has 4000+ uploaded words.
-                            </p>
-                            <p>
-                                <span><b>Developers:</b>&nbsp;
-                                    <i>
-                                        Nielanie Pañoso &nbsp; and &nbsp;
-                                        John Patrick Papares
-                                    </i>
-                                </span><br>
-                                <span><b>Developed using:</b>&nbsp;<i>Java, XML, JSON and SQLite</i></span><br>
-                                <span class="text-color-secondary"><b>Request Activation Key via:</b>&nbsp; <i>johnpatrickpapares@gmail.com</i></span>
-                            </p>
-                            <a href="docs/ASL Guide v1.0.apk" class="btn btn-outline-primary" style="width: 100%" download="ASL Guide v1.0.apk" target="_blank">Download</a>
-                        </div>
-                    </div>
 
-                    <div id="ProgrammersCalculator" class="project shadow-large">
-                        <div class="project-image">
-                            <img src="img/ProgrammersCalculator.PNG" width="300" />
+                <div id="ProgrammersCalculator" class="ig-project-card">
+                    <div class="ig-project-image">
+                        <img src="img/ProgrammersCalculator.PNG" alt="Programmers Calculator">
+                        <div class="ig-project-overlay">
+                            <a href="docs/Programmers Calculator.apk" class="ig-btn ig-btn-download" download="Programmers Calculator.apk" target="_blank">
+                                <i class="fas fa-download"></i>
+                            </a>
                         </div>
-                        <div class="project-info">
-                            <h3 class="font-weight-bold" style="text-align: center">Programmers Calculator
-                            </h3>
-                            <h5 class="text-color-secondary" style="text-align: center">2nd year College Project</h5>
-                            <p style="text-align: justify">
-                                Programmers Calculator it is a calculator for Hexadecimal, Octa decimal, Binary and Decimal.
-                            </p>
-                            <p><span><b>Developed using:</b>&nbsp;<i>Java and XML</i></span></p>
-                            <a href="docs/Programmers Calculator.apk" class="btn btn-outline-primary" style="width: 100%" download="Programmers Calculator.apk" target="_blank">Download</a>
+                    </div>
+                    <div class="ig-project-info">
+                        <h4>Programmers Calculator</h4>
+                        <p>Hex, Oct, Binary, Decimal</p>
+                        <p class="ig-tech">Java, XML</p>
+                        <small>2nd Year Project</small>
+                    </div>
+                </div>
 
+                <div id="ColorPicker" class="ig-project-card">
+                    <div class="ig-project-image">
+                        <img src="img/ColorPicker.png" alt="Color Picker">
+                        <div class="ig-project-overlay">
+                            <a href="docs/Color Picker.apk" class="ig-btn ig-btn-download" download="Color Picker.apk" target="_blank">
+                                <i class="fas fa-download"></i>
+                            </a>
                         </div>
                     </div>
+                    <div class="ig-project-info">
+                        <h4>Color Picker</h4>
+                        <p>Hexadecimal Color Viewer</p>
+                        <p class="ig-tech">Java, XML</p>
+                    </div>
+                </div>
 
-                    <div id="ColorPicker" class="project shadow-large">
-                        <div class="project-image">
-                            <img src="img/ColorPicker.png" width="300" />
+                <div id="Flames" class="ig-project-card">
+                    <div class="ig-project-image">
+                        <img src="img/Flames.png" alt="Flames">
+                        <div class="ig-project-overlay">
+                            <a href="docs/Flames.apk" class="ig-btn ig-btn-download" download="Flames.apk" target="_blank">
+                                <i class="fas fa-download"></i>
+                            </a>
                         </div>
-                        <div class="project-info">
-                            <h3 class="font-weight-bold" style="text-align: center">Color Picker
-                            </h3>
-                            <p style="text-align: justify">
-                                Color Picker is used for viewing a hexadecimal value of any color.
-                            </p>
-                            <p>
-                                <span><b>Developed using:</b>&nbsp;<i>Java and XML</i></span>
-                            </p>
-                            <a href="docs/Color Picker.apk" class="btn btn-outline-primary" style="width: 100%" download="Color Picker.apk" target="_blank">Download</a>
+                    </div>
+                    <div class="ig-project-info">
+                        <h4>Flames Game</h4>
+                        <p>Relationship Status Calculator</p>
+                        <p class="ig-tech">Java, XML</p>
+                    </div>
+                </div>
+            </div>
 
+            <h3 class="ig-subsection-title">🖥️ Windows Applications</h3>
+            <div class="ig-grid">
+                <div id="MineSweeper" class="ig-project-card">
+                    <div class="ig-project-image">
+                        <img src="img/MineSweeper.png" alt="Mine Sweeper">
+                        <div class="ig-project-overlay">
+                            <a href="docs/2DMineSweeper.exe" class="ig-btn ig-btn-download" download="2DMineSweeper.exe" target="_blank">
+                                <i class="fas fa-download"></i>
+                            </a>
                         </div>
                     </div>
+                    <div class="ig-project-info">
+                        <h4>Mine Sweeper</h4>
+                        <p>2D Console Game</p>
+                        <p class="ig-tech">C#.Net</p>
+                        <small>4th Year Activity</small>
+                    </div>
+                </div>
 
-                    <div id="Flames" class="project shadow-large">
-                        <div class="project-image">
-                            <img src="img/Flames.png" width="300" />
-                        </div>
-                        <div class="project-info">
-                            <h3 class="font-weight-bold" style="text-align: center">Flames
-                            </h3>
-                            <p style="text-align: justify">
-                                A childhood game to calculate the status between you and your crush.
-                            </p>
-                            <p><span><b>Developed using:</b>&nbsp;<i>Java and XML</i></span></p>
-                            <a href="docs/Flames.apk" class="btn btn-outline-primary" style="width: 100%" download="Flames.apk" target="_blank">Download</a>
+                <div id="MineSweeperJava" class="ig-project-card">
+                    <div class="ig-project-image">
+                        <img src="img/MineSweeperJava.png" alt="Mine Sweeper Java">
+                        <div class="ig-project-overlay">
+                            <a href="docs/Minesweeper.jar" class="ig-btn ig-btn-download" download="Minesweeper.jar" target="_blank">
+                                <i class="fas fa-download"></i>
+                            </a>
                         </div>
                     </div>
-                    <br>
-                    <h3 class="header">Windows Applications</h3>
-                    <hr>
-                    <div id="MineSweeper" class="project shadow-large">
-                        <div class="project-image">
-                            <img src="img/MineSweeper.png" width="300" />
-                        </div>
-                        <div class="project-info">
-                            <h3 class="font-weight-bold" style="text-align: center">Mine Sweeper
-                            </h3>
-                            <h5 class="text-color-secondary" style="text-align: center">4th year College Activity</h5>
-                            <p style="text-align: justify">
-                                A 2-Dimensional game console application with a basic function of a mine sweeper.
-                            </p>
-                            <p>
-                                <span><b>Developed using:</b>&nbsp;C#.Net</span></p>
-                            <a href="docs/2DMineSweeper.exe" class="btn btn-outline-primary" style="width: 100%" download="2DMineSweeper.apk" target="_blank">Download</a>
-                        </div>
+                    <div class="ig-project-info">
+                        <h4>Mine Sweeper Java</h4>
+                        <p>Windows Desktop App</p>
+                        <p class="ig-tech">Java</p>
                     </div>
-                    <div id="MineSweeperJava" class="project shadow-large">
-                        <div class="project-image">
-                            <img src="img/MineSweeperJava.png" width="300" />
-                        </div>
-                        <div class="project-info">
-                            <h3 class="font-weight-bold" style="text-align: center">Mine Sweeper Java
-                            </h3>
-                            <p style="text-align: justify">
-                                Remake of 2-Dimensional game console application with a basic function of a mine sweeper into Windows Application.
-                            </p>
-                            <p>
-                                <span><b>Developed using:</b>&nbsp;Java</span>
-                            </p>
-                            <a href="docs/Minesweeper.jar" class="btn btn-outline-primary" style="width: 100%" download="Minesweeper.jar" target="_blank">Download</a>
-                        </div>
-                    </div>
-                    <br>
-                    <h3 class="header">Web Applications</h3>
-                    <hr>
-                    <div id="MemoryGame" class="project shadow-large">
-                        <div class="project-image">
-                            <img src="img/brains.png" width="300" />
-                        </div>
-                        <div class="project-info">
-                            <h3 class="font-weight-bold" style="text-align: center">Memory Game
-                            </h3>
-                            <h5 class="text-color-secondary" style="text-align: center">3rd year College Project</h5>
-                            <p style="text-align: justify">
-                                Web game application developed by our group for completion of 1st semester.
-                            </p>
-                            <p><span><b>Developers:</b>&nbsp;
-                                <i>
-                                    Cyrine Dipasupil, &nbsp;
-                                    Cedric Anthony Morales, &nbsp;
-                                    Maria Princess Maricel Nota &nbsp; and &nbsp;
-                                    John Patrick Papares
-                                </i>
-                            </span>
-                                <br>
-                                <span><b>Developed using:</b>&nbsp;<i>HTML, JavaScript and CSS</i></span></p>
-                            <a href="Mind Game/index.html" class="btn btn-outline-primary" style="width: 100%" target="_blank">View</a>
-                        </div>
-                    </div>
+                </div>
+            </div>
 
+            <h3 class="ig-subsection-title">🌐 Web Applications</h3>
+            <div class="ig-grid">
+                <div id="MemoryGame" class="ig-project-card">
+                    <div class="ig-project-image">
+                        <img src="img/brains.png" alt="Memory Game">
+                        <div class="ig-project-overlay">
+                            <a href="Mind Game/index.html" class="ig-btn ig-btn-download" target="_blank">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ig-project-info">
+                        <h4>Memory Game</h4>
+                        <p>Brain Training Web Game</p>
+                        <p style="font-size: 0.85rem; margin: 0.5rem 0;">Web game application developed by our group for completion of 1st semester.</p>
+                        <p class="ig-tech">HTML, CSS, JavaScript</p>
+                        <small>1st Semester Project | Group Work</small>
+                        <small style="display: block; margin-top: 0.5rem; color: #999;">With: Cyrine Dipasupil, Cedric Anthony Morales, Maria Princess Maricel Nota</small>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9555497949371054"
-     crossorigin="anonymous"></script>
-    <ins class="adsbygoogle"
-        style="display:block; text-align:center;"
-        data-ad-layout="in-article"
-        data-ad-format="fluid"
-        data-ad-client="ca-pub-9555497949371054"
-        data-ad-slot="1423210575"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    </section>
     <!-- Projects End -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9555497949371054"
-    crossorigin="anonymous"></script>
-    <!-- MyAdd -->
-    <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-9555497949371054"
-        data-ad-slot="8718676195"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-    <!-- Skills Start-->
-    <div id="Skills" class="container-fluid scroll-container">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h1 class="header font-weight-bold">Skills</h1>
+
+    <!-- Skills Start -->
+    <section id="Skills" class="ig-section">
+        <div class="ig-section-container">
+            <h2 class="ig-section-title">Skills</h2>
+            <div class="ig-skills-grid">
+                <div class="ig-skill-category">
+                    <h4 class="ig-skill-title">💻 Programming</h4>
+                    <div class="ig-skill-tags">
+                        <span class="ig-skill-tag">Java</span>
+                        <span class="ig-skill-tag">C#</span>
+                        <span class="ig-skill-tag">C/C++</span>
+                        <span class="ig-skill-tag">HTML</span>
+                        <span class="ig-skill-tag">CSS</span>
+                        <span class="ig-skill-tag">JavaScript</span>
+                        <span class="ig-skill-tag">MySQL</span>
+                        <span class="ig-skill-tag">PowerShell</span>
+                    </div>
                 </div>
-                <div class="col-md-8">
-                    <div class="card skills">
-                        <div class="card-body">
-                            <b>Programming:</b>
-                            <ul>
-                                <li>Java</li>
-                                <li>C#</li>
-                                <li>C/C++</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>MySQL</li>
-                                <li>PowerSell</li>
-                            </ul>
-                            <br>
-                            <b>Tools and Software:</b>
-                            <ul>
-                                <li>Photoshop</li>
-                                <li>Audition</li>
-                                <li>MS Office</li>
-                                <li>Vegas Pro</li>
-                                <li>Azure</li>
-                            </ul>
-                            <br>
-                            <b>Operating System:</b>
-                            <ul>
-                                <li>Windows</li>
-                            </ul>
-                        </div>
+                <div class="ig-skill-category">
+                    <h4 class="ig-skill-title">🛠️ Tools & Software</h4>
+                    <div class="ig-skill-tags">
+                        <span class="ig-skill-tag">Photoshop</span>
+                        <span class="ig-skill-tag">Audition</span>
+                        <span class="ig-skill-tag">MS Office</span>
+                        <span class="ig-skill-tag">Vegas Pro</span>
+                        <span class="ig-skill-tag">Azure</span>
+                        <span class="ig-skill-tag">Docker</span>
+                        <span class="ig-skill-tag">Git</span>
+                    </div>
+                </div>
+                <div class="ig-skill-category">
+                    <h4 class="ig-skill-title">🖥️ Operating Systems</h4>
+                    <div class="ig-skill-tags">
+                        <span class="ig-skill-tag">Windows</span>
+                        <span class="ig-skill-tag">Linux</span>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Skills End-->
+    </section>
+    <!-- Skills End -->
 
-    <footer class="scroll-container bg-color-alt bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2019 JOHN PATRICK S. PAPARES
-                    </p>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/johnpatrick23" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/john-patrick-papares-3a3432187/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/CRUSHBAGAKITADMOALAM" target="_blank"><i class="fa fa-facebook" aria-hidden="true "></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/JPapares_23" target="_blank"><i class="fa fa-twitter" aria-hidden="true "></i></a>
-                        </li>
-                    </ul>
+    <!-- Footer -->
+    <footer class="ig-footer">
+        <div class="ig-footer-content">
+            <div class="ig-footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                </ul>
+            </div>
+            <div class="ig-footer-section">
+                <h4>Connect With Me</h4>
+                <div class="ig-social-links">
+                    <a href="https://github.com/johnpatrick23" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/john-patrick-papares-3a3432187/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/CRUSHBAGAKITADMOALAM" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/JPapares_23" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
                 </div>
             </div>
+        </div>
+        <div class="ig-footer-bottom">
+            <p>&copy; 2024 John Patrick Papares. All rights reserved.</p>
         </div>
     </footer>
 
 </body>
-<!-- <a href="Mind Game/index.html ">Mind Game</a> -->
-
 
 </html>
